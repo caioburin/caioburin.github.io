@@ -1,39 +1,46 @@
-baseurl = "/"
+baseurl = "http://clav.com.br"
+title = "'ONDE AS PALAVRAS FALHAM, A MÚSICA FALA.'"
+theme = "dimension"
 languageCode = "en-us"
-title = "Clav MBI"
-theme = "hugo-theme-revealjs"
-googleAnalytics = "UA-112799903-1"
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "A Clav"
-    url = "/about/"
-[[menu.main]]
-    name = "Quem somos"
-    url = "/who/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/caioburin/caioburin.github.io"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableKinds=["RSS"]
 
 [params]
-    description = "A website built through Hugo and blogdown."
+  description = '<!--[-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--]--><br />'
+  logo = "fa-navicon"
+  copyright = "Untitled"
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.11.0"
-    highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
 
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
 
-    [params.logo]
-    url = "clav.png"
-    width = 100
-    height = 100
-    alt = "Logo"
+[[params.social]]
+  medium = "instagram"
+  icon = "instagram"
+  link = "#"
 
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "#"
+
+[languages]
+[languages.en]
+languageName = "Home"
+weight = 1
+
+[languages.de]
+languageName = "Contato"
+weight = 2
+title = "Fale Com a Clav"
+description = '<!--[-->PEDRO BONTORIM pedro.bontorim@clav.com.br &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ALEXANDRE FERRARI alexandre.ferrari@clav.com.br
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+CAIO BURIN caio.burin@clav.com.br <!--]--><br />'
