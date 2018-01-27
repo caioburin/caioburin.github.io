@@ -2,6 +2,7 @@ baseurl = "http://clav.com.br"
 title = "'ONDE AS PALAVRAS FALHAM, A MÚSICA FALA.'"
 theme = "dimension"
 GoogleAnalytics = "UA-112799903-1"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 languageCode = "en-us"
 defaultContentLanguage = "en"
