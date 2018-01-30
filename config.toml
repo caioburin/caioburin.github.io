@@ -43,7 +43,6 @@ weight = 1
 languageName = "Contato"
 weight = 2
 title = "Fale Com a Clav"
-description = '<!--[-->PEDRO BONTORIM pedro.bontorim@clav.com.br &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+description = '''PEDRO BONTORIM pedro.bontorim@clav.com.br
 ALEXANDRE FERRARI alexandre.ferrari@clav.com.br
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-CAIO BURIN caio.burin@clav.com.br <!--]--><br />'
+CAIO BURIN caio.burin@clav.com.br'''
