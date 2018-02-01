@@ -1,6 +1,6 @@
 ---
-title: "Quem Somos"
-author: "Caio Burin"
+title: "Hello R Markdown"
+author: "Frida Gomam"
 date: 2015-07-23T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
@@ -10,21 +10,28 @@ tags: ["R Markdown", "plot", "regression"]
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-Somos data driven.
-Buscamos mapear e projetar o mercado
-fonográfico e suas possibilidades, servindo
-artistas, profissionais da música, orientando
-estratégias de marketing e marcas nas
-plataformas musicais por data science e
-inteligência artificial a fim de fazer da audiência,
-do fã, do consumidor, protagonista.
-Sempre em sintonia e guiados pela curadoria
-humana, a mais perfeita e criativa forma de
-inteligência existente.
+# R Markdown
 
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-# Mídias Sociais
+You can embed an R code chunk like this:
 
-[Pedro Bontorim](http://www.instagram.com/pbontorim) / [Alexandre Ferrari](http://www.instagram.com/aleminha) / [Caio Burin](http://www.instagram.com/caioburin) / [Clav](https://www.facebook.com/Clav-180924422503789/)
+```{r cars}
+summary(cars)
+fit <- lm(dist ~ speed, data = cars)
+fit
+```
 
-![](images/detalhes.png)
+# Including Plots
+
+You can also embed plots. See Figure \@ref(fig:pie) for example:
+
+```{r pie, fig.cap='A fancy pie chart.', tidy=FALSE}
+par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c('Sky', 'Sunny side of pyramid', 'Shady side of pyramid'),
+  col = c('#0292D8', '#F7EA39', '#C4B632'),
+  init.angle = -50, border = NA
+)
+```

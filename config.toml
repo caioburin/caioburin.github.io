@@ -1,48 +1,89 @@
-baseurl = "http://clav.com.br"
-title = "'ONDE AS PALAVRAS FALHAM, A MÚSICA FALA.'"
-theme = "dimension"
-GoogleAnalytics = "UA-112799903-1"
+# Site settings
+baseurl = "https://clav.com.br/"
+languageCode = "en-us"
+title = "CLAV | Music Business Intelligence"
+theme = "hugo-smpl-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-languageCode = "en-us"
-defaultContentLanguage = "en"
-enableRobotsTXT = true
-disableKinds=["RSS"]
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "UA-112799903-1"
 
 [params]
-  description = '<!--[-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--]--><br />'
-  logo = "fa-navicon"
-  copyright = "Untitled"
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
 
-[[params.social]]
-  medium = "twitter"
-  icon = "twitter"
-  link = "#"
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Your Name"
+  description = "Your Description"
 
-[[params.social]]
-  medium = "facebook"
-  icon = "facebook"
-  link = "#"
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
 
-[[params.social]]
-  medium = "instagram"
-  icon = "instagram"
-  link = "#"
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
 
-[[params.social]]
-  medium = "github"
-  icon = "github"
-  link = "#"
+  # Logo section
+  #[params.logo]
+  #  enable = true
+  #  image = "assets/img/logo.png"
+  #  alt = "BlackTie.co"
+  #  width = "100"
 
-[languages]
-[languages.en]
-languageName = "Home"
-weight = 1
+  # Header section
+  #[params.header]
+  #  enable = true
+  #  title = "BlackTie.co<br>SMPL Theme."
 
-[languages.de]
-languageName = "Contato"
-weight = 2
-title = "Fale Com a Clav"
-description = '''PEDRO BONTORIM pedro.bontorim@clav.com.br
-ALEXANDRE FERRARI alexandre.ferrari@clav.com.br
-CAIO BURIN caio.burin@clav.com.br'''
+  # Quote section
+  #[params.quote]
+  #  enable = true
+  #  text = "LALALALAALALALALALALAALALALALAL"
+
+  # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
+  [params.social_icons]
+    #enable = true
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook fa-lg"
+    link = "https://www.facebook.com/clavmusicbusinessintelligence/"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter fa-lg"
+    link = "https://twitter.com/clav_music"
+
+  [[params.social]]
+    title = "Instagram"
+    icon = "fa-instagram fa-lg"
+    link = "https://www.instagram.com/clav_music"
+
+  #[[params.social]]
+  #  title = "Free Themes"
+  #  icon = "fa-heart"
+  #  link = "http://BlackTie.co"
+
+  #[[params.social]]
+  #  title = "Blog"
+  #  icon = "fa-comment"
+  #  link = "http://freelance.postach.io"
+
+  [[params.social]]
+    title = "Email Us!"
+    icon = "fa-envelope fa-lg"
+    link = "mailto:contato@clav.com.br"
+
+  #[[params.social]]
+  #  title = "Newsletter"
+  #  icon = "fa-coffee"
+  #  link = "http://eepurl.com/Eck_T"
