@@ -51,7 +51,7 @@ googleAnalytics = "UA-112799903-1"
   # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
   # e.g., icon = "fa-instagram fa-lg"
   [params.social_icons]
-    #enable = true
+    enable = true
 
   [[params.social]]
     title = "Facebook"
